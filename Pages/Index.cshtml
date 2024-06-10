@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Button Click Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/3.1.13/signalr.min.js"></script>
+    <script src="~/js/ClickGame.js"></script>
+</head>
+<body>
+    <h1>Button Click Game</h1>
+    <button onclick="clickButton()">Click Me!</button>
+    <button onclick="resetGame()">Reset</button>
+    <p>Click Count: <span id="clickCount">0</span></p>
+</body>
+</html>
